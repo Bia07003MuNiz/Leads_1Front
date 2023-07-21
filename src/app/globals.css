@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: black;
+  background: #FFF;
+}
+
+.div{
+  color: black;
+  background: #f0f8ff;
+  text-align: center;
+  width: 1349px;
+  height: 450px;
+  
+}
+
+/* centraliza os objeto dentro da DIV*/
+.child {
+  width: 1000px;
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
+}
+
+.menos{
+  color: #1c3c50;
+  font-size: 40px;
+  padding:0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.mais{
+  top: 0px;
+  color: #0084ff;
+  font-weight: bolder;
+  font-size: 70px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 55px;
+	
+}
+
+.div-dois{
+  color: black;
+  background: #f0f8ff;
+  text-align: center;
+  width: 1349px;
+  height: 450px;
+  margin-top: 20px;
+}
+.foto{
+  width: 450px;
+  height: 450px;
+  position: relative;
+  margin-top: 10px;
+  right: 5%;
+}
+
+.leads{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  position: relative;
+  top:5px;
+  line-height: 1.2; 
+  text-align: left;
+  color: #1c3c50;
+}
+.min{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  top:5px;
+  line-height: 1.5; 
+  text-align: left;
+  color: #1c3c50;
+}
+.dem{
+  position: relative;
+  right: 100px;
+}
+.selo{
+  position: relative;
+  left: 250px;
+  top: -55px;
+  width: 150px;
+  height: 50px;
+}
+.text{
+margin-top: -45px;
+font-size: 12px;
+}
+.log1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.log{
+  margin-top: 30px;
+}
+.fotoo{
+  position: relative;
+  left: 740px;
+  bottom: 65px;
+
+}
+
+.max{
+  position: relative;
+  left: -20px;
+}
+.rua{
+  position: relative;
+  left: 150px;
+}
+.est{
+  margin-top: -20px;
+}
+.card-visible {
+  display: block;
+}
+.cartao{
+  text-align: center;
+}
+.fotinha{
+  height: 28px;  
+}
+.fotinha1{
+  height: 25px;  
+  position:relative;
+  left: 110px;
+  margin-top: -25px;
+}
+.fotinha2{
+  height: 27px;  
+  position:relative;
+  left: 220px;
+  margin-top: -25px;
+}
+.cartoes-video{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: relative;
+  top:5px;
+  line-height: 1.2; 
+  text-align: left;
+  color: #1c3c50;
+}
+.cartoes-res{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  position: relative;
+  top:5px;
+  line-height: 1.2; 
+  text-align: left;
+  color: #1c3c50;
+}
+.x{
+  position: relative;
+  left: 350px;
+  top: 5px;
+  color: #0084ff;
+}
